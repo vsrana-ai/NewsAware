@@ -1,7 +1,19 @@
 # NewsAware: A Domain-Adaptive, Knowledge-Aware Newsroom Agent
+A prototype agent for knowledge-grounded evaluation of news and public claims.
 
 ## Overview
 NewsAware is a prototype AI agent designed to analyze news and text for sentiment, credibility, and factual reliability.
+
+## Research Motivation
+
+Current AI systems often generate fluent but unreliable outputs, including unsupported claims and subtle misinformation. This is especially critical in journalism, where factual accuracy and trust are essential.
+
+NewsAware is motivated by the need for:
+- Evidence-aware reasoning in language models  
+- Detection of overgeneralized or misleading claims  
+- Structured evaluation beyond surface-level text generation  
+
+This project represents a first step toward knowledge-grounded and domain-adaptive AI systems.
 
 ## Problem
 Large language models often generate:
@@ -20,20 +32,9 @@ Input → Analyze → Check Evidence → Refine
 - Check: Evaluate presence of supporting evidence  
 - Refine: Adjust credibility based on reasoning  
 
-## Example
+## Workflow
 
-
-Input:
-"Recent reports confirm that a widely used COVID-19 vaccine increases the risk of severe neurological disorders, but this information is being suppressed by mainstream media."
-
-Output:
-- Sentiment: Negative  
-- Credibility: Low  
-- Reason:
-  - Makes a serious public health claim without citing verifiable sources  
-  - Uses vague attribution ("recent reports") without evidence  
-  - Suggests conspiracy framing ("information is being suppressed")  
-  - No supporting data, study, or institution referenced  
+Input → Analyze → Check Evidence → Refine
 
 ## Example
 
@@ -47,8 +48,8 @@ Output:
   - Uses vague attribution ("studies show") without citing sources  
   - Overstates scientific consensus on cognitive and mental health effects  
   - Does not distinguish correlation from causation  
-  - Lacks specific evidence or data  
-
+  - Lacks verifiable sources or references
+ 
 ## Future Direction
 - Knowledge graph integration  
 - Retrieval-based evidence checking (RAG)  
