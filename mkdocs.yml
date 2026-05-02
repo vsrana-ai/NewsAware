@@ -1,0 +1,10 @@
+site_name: "NewsAware"
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - NewsAware:
+      - Identity: 02-Agents/NewsAware/IDENTITY.md
+      - Soul: 02-Agents/NewsAware/SOUL.md
