@@ -3,7 +3,7 @@
 A domain-adaptive, knowledge-aware AI agent for evaluating news credibility.
 
 ## Live Demo
-https://vsrana-ai.github.io/NewsAware/
+Access the Demo at : https://vsrana-ai.github.io/NewsAware/
 
 ## Workflow
 Input → Analyze → Check Evidence → Refine
