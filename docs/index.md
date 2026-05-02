@@ -1,10 +1,12 @@
 # NewsAware: A Domain-Adaptive, Knowledge-Aware Newsroom Agent
+!!! info
+    NewsAware evaluates news using evidence-aware reasoning and credibility scoring.
 A prototype agent for knowledge-grounded evaluation of news and public claims.
 
-## Overview
+## 🔍 Overview
 NewsAware is a prototype AI agent designed to analyze news and text for sentiment, credibility, and factual reliability.
 
-## Research Motivation
+##  🧠 Research Motivation
 
 Current AI systems often generate fluent but unreliable outputs, including unsupported claims and subtle misinformation. This is especially critical in journalism, where factual accuracy and trust are essential.
 
@@ -36,7 +38,7 @@ Input → Analyze → Check Evidence → Refine
 - Check: Evaluate presence of supporting evidence  
 - Refine: Adjust credibility based on reasoning  
 
-## Workflow
+## ⚙️ Workflow
 
 Input → Analyze → Check Evidence → Refine
 
