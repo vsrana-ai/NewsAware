@@ -15,6 +15,10 @@ NewsAware is motivated by the need for:
 
 This project represents a first step toward knowledge-grounded and domain-adaptive AI systems.
 
+## Architecture
+
+![NewsAware Architecture](assets/process.png)
+
 ## Problem
 Large language models often generate:
 - Unsupported claims
