@@ -17,7 +17,7 @@ This project represents a first step toward knowledge-grounded and domain-adapti
 
 ## Architecture
 
-![NewsAware Architecture](assets/process.png)
+![NewsAware Process](assets/process.png)
 
 ## Problem
 Large language models often generate:
