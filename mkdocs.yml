@@ -14,3 +14,6 @@ nav:
   - NewsAware:
       - Identity: 02-Agents/NewsAware/IDENTITY.md
       - Soul: 02-Agents/NewsAware/SOUL.md
+  - System: system.md
+  - Evaluation: evaluation.md
+  - Demo: demo.md
